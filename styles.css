@@ -22,7 +22,7 @@ html {
       rgba(0, 0, 0, 0.4) 60%,
       rgba(0, 0, 0, 0.93) 100%
     ),
-    url("/IN-en-20231023-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    url("newIN-en-20231030-popsignuptwoweeks-perspective_alpha_website_large\ \(1\).jpg");
   background-repeat: no-repeat;
   background-position: -158px -181px;
   background-size: 125% 126%;
@@ -93,14 +93,14 @@ button:hover {
 
 .membership-container {
   font-family: Arial, Helvetica, sans-serif;
-  flex-basis: 70%;
-  height: 310px;
+  flex-basis: 87%;
+  height: 322px;
   font-size: 10px;
   text-align: center;
 }
 
 .membership-container h1 {
-  padding-bottom: 0.5em;
+  padding-bottom: 0.4em;
   font-weight: 1000;
   font-size: 4.6em;
   text-align: center;
@@ -108,7 +108,7 @@ button:hover {
 
 .membership-container .hero-text {
   font-size: 2.2em;
-  padding-bottom: 1.3em;
+  padding-bottom: 1.1em;
 }
 
 .membership-container p {
@@ -118,7 +118,12 @@ button:hover {
 
 /* Enter your email styles */
 
-.membership-container input {
+.email-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.email-container input {
   width: 37em;
   height: 55px;
   background-color: rgba(0, 0, 0, 0.35);
@@ -130,15 +135,11 @@ button:hover {
   padding-top: 7px;
 }
 
-.membership-container input::placeholder {
+.email-container input::placeholder {
   color: rgb(205, 205, 205);
   font-size: 1.5em;
   /* padding: 0;
   margin: 0; */
-}
-
-.email-container {
-  /* font-size: 10px; */
 }
 
 .email-button {
@@ -163,19 +164,25 @@ button:hover {
   }
 }
 
-@media (max-width: 800px) {
-  .membership-container input {
+/* @media (max-width: 800px) {
+  .email-container input {
     width: 35vw;
   }
-}
+} */
 
-@media (max-width: 635px) {
-  .membership-container input {
-    width: 77vw;
-    height: 48px;
-    margin-bottom: 18px;
+@media (max-width: 740px) {
+  .email-container input {
+    flex-basis: 54%;
   }
-
+}
+@media (max-width: 600px) {
+  .email-container {
+    flex-flow: row wrap;
+  }
+  .email-container input {
+    height: 48px;
+    flex-basis: 90%;
+  }
   .email-button {
     width: 148px;
     height: 48px;
