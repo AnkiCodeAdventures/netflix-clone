@@ -130,6 +130,7 @@ button:hover {
   width: 370px;
   height: 55px;
   background-color: rgba(0, 0, 0, 0.35);
+  color: white;
   padding-left: 1.6em;
   border-radius: 0.4em;
   font-size: 10px;
@@ -218,5 +219,22 @@ button:hover {
     width: 148px;
     height: 48px;
     font-size: 18px;
+  }
+
+  .section-1 #language {
+    width: 24px;
+  }
+  .section-1 header .buttons-container {
+    flex-basis: 116px;
+  }
+}
+
+@media (max-width: 520px) {
+  .membership-container {
+    font-size: 6px;
+  }
+
+  .membership-container p {
+    font-size: 17px !important;
   }
 }
