@@ -168,6 +168,7 @@ button:hover {
   .section-1 header {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
+    height: 90px;
   }
   .section-1 header .buttons-container {
     flex-basis: 212px;
@@ -190,6 +191,16 @@ button:hover {
 } */
 
 @media (max-width: 740px) {
+  .section-1 {
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.85) 0,
+        rgba(0, 0, 0, 0.4) 60%,
+        rgba(0, 0, 0, 0.93) 100%
+      ),
+      url("InewN-en-20231023-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    background-size: cover;
+  }
   .email-container input {
     flex-basis: 54%;
   }
