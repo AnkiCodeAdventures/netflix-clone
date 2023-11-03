@@ -208,6 +208,7 @@ button:hover {
 @media (max-width: 600px) {
   .email-container {
     flex-flow: row wrap;
+    height: 130px;
   }
   .email-container input {
     height: 48px;
