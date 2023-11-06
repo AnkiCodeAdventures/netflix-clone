@@ -26,7 +26,6 @@ html {
     ),
     url("newIN-en-20231030-popsignuptwoweeks-perspective_alpha_website_large\ \(1\).jpg");
   background-repeat: no-repeat;
-  /* background-position: -158px -181px; */
   background-position: center bottom;
   background-size: 125%;
   color: white;
@@ -49,7 +48,7 @@ html {
   margin-right: auto;
 }
 
-img {
+.section-1 img {
   width: 100%;
   height: auto;
 }
@@ -104,11 +103,14 @@ button:hover {
   text-align: center;
 }
 
-.membership-container h1 {
-  padding-bottom: 0.4em;
+h1 {
   font-weight: 1000;
   font-size: 4.6em;
   text-align: center;
+}
+
+.membership-container h1 {
+  padding-bottom: 0.4em;
 }
 
 .membership-container .hero-text {
@@ -244,8 +246,39 @@ button:hover {
 /* second section styles */
 
 .section-2 {
-  width: 100%;
-  height: 500px;
+  height: 565px;
   background-color: black;
   color: white;
+  /* padding: 60px 25px; */
+}
+
+.text-container {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-container h1 {
+  font-size: 3em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.section-2 p {
+  font-size: 1.7em;
+  text-align: center;
+}
+
+.tv-container {
+  max-height: 100%;
+}
+
+.tv-container img {
+  z-index: 10;
+  width: auto;
+  height: 400px;
+  max-height: 100%;
+}
+
+.tv-container video {
+  z-index: 5;
 }
