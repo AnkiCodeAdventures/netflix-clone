@@ -270,15 +270,26 @@ h1 {
 }
 
 .tv-container {
+  position: relative;
+  z-index: 10;
 }
 
 .tv-container img {
-  z-index: 10;
   width: 100%;
-  /* max-width: 500px; */
   height: auto;
 }
 
-.tv-container video {
+.tv-container .video-container {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 5;
+  top: 20.5%;
+  left: 13.2%;
+}
+
+.tv-container .video-container video {
+  width: 72.7%;
+  height: auto;
   z-index: 5;
 }
