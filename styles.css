@@ -250,7 +250,9 @@ h1 {
   min-height: 560px;
   background-color: black;
   color: white;
-  /* padding: 60px 25px; */
+  padding: 50px 25px;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .text-container {
@@ -260,7 +262,7 @@ h1 {
 
 .text-container h1 {
   font-size: 3em;
-  padding-bottom: 1em;
+  padding-bottom: 0.9em;
   text-align: center;
 }
 
