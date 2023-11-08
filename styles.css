@@ -354,20 +354,33 @@ h1 {
 .section-3 .animation-box {
   position: absolute;
   left: 16%;
-  top: -22%;
+  top: -23%;
   width: 69%;
+  min-width: 240px;
   height: 60px;
   border: gray solid 2px;
   border-radius: 10px;
   background-color: black;
   color: white;
   display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
 }
 
-.section-3 .animation-box .boxshot-container {
+.animation-container .boxshot-container {
   width: 40px;
   height: 56px;
-  position: absolute;
+}
+
+.animation-container .animation-text-container {
+  width: 120px;
+  height: 56px;
+  padding: 9px 9px;
+}
+
+.animation-box .gif-container {
+  width: 54px;
+  height: 54px;
 }
 
 .animation-box .boxshot-image {
@@ -375,19 +388,12 @@ h1 {
   height: auto;
 }
 
-.animation-box .animation-text {
-  flex-basis: 100px;
+.animation-box .animation-text-container p:last-child {
+  font-size: 0.85em;
+  color: rgb(93 156 255);
 }
 
-.animation-box .animation-text:last-child {
-  color: blue;
-}
-
-.section-3 .animation-box .gif-container {
-  width: 54px;
-}
-
-.section-3 .animation-box image {
+.animation-box .gif-container img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
