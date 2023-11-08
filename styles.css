@@ -354,7 +354,7 @@ h1 {
   margin: 0 auto;
   z-index: 10;
   width: 69%;
-  top: -18vmin;
+  bottom: 18vmin;
   min-width: 270px;
   height: 60px;
   border: gray solid 2px;
@@ -396,4 +396,20 @@ h1 {
 .animation-box .gif-container img {
   width: 100%;
   height: auto;
+}
+
+@media (min-width: 550px) {
+  .section-3 .animation-box {
+    height: 80px;
+  }
+  .animation-container .boxshot-container {
+    width: 42px;
+    margin-left: 14px;
+    margin-right: 12px;
+  }
+
+  .animation-container .animation-text-container {
+    width: 232px;
+    font-size: 1.1em;
+  }
 }
