@@ -325,38 +325,37 @@ h1 {
   color: white;
   padding: 50px 25px;
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
   justify-content: center;
+
+  align-items: center;
 }
 
 .section-3 .text-container {
+  flex-basis: 50%;
+}
+
+.section-3 .animation-container-box {
+  flex-basis: 50%;
 }
 
 .section-3 .animation-container {
-  min-height: 370px;
   position: relative;
+  z-index: 5;
 }
 
 .section-3 .animation-bgimage {
   width: 100%;
   height: auto;
-  position: relative;
-  z-index: 5;
-}
-
-.section-3 .animation-box-container {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  z-index: 10;
 }
 
 .section-3 .animation-box {
-  position: absolute;
-  left: 16%;
-  top: -23%;
+  position: relative;
+  margin: 0 auto;
+  z-index: 10;
   width: 69%;
-  min-width: 240px;
+  top: -18vmin;
+  min-width: 270px;
   height: 60px;
   border: gray solid 2px;
   border-radius: 10px;
@@ -364,23 +363,24 @@ h1 {
   color: white;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
 }
 
 .animation-container .boxshot-container {
-  width: 40px;
-  height: 56px;
+  width: 35px;
+  margin-left: 8px;
 }
 
 .animation-container .animation-text-container {
-  width: 120px;
-  height: 56px;
-  padding: 9px 9px;
+  width: 125px;
+  height: 35px;
+  text-align: left;
 }
 
 .animation-box .gif-container {
-  width: 54px;
-  height: 54px;
+  width: 50px;
 }
 
 .animation-box .boxshot-image {
@@ -395,5 +395,5 @@ h1 {
 
 .animation-box .gif-container img {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
