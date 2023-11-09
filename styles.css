@@ -456,3 +456,11 @@ h1 {
 }
 
 /* section-4 styles same as section-2 */
+
+/* section-5 styles */
+
+@media (min-width: 960px) {
+  .section-5-order {
+    order: 2; /*orders .text-container */
+  }
+}
