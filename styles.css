@@ -306,7 +306,7 @@ h1 {
   .section-2 .text-container {
     display: flex;
     flex-flow: row wrap;
-    font-size: 15px;
+    font-size: 14px;
     flex: 1;
     text-align: left;
     align-content: center;
@@ -454,3 +454,5 @@ h1 {
     padding-right: 140px;
   }
 }
+
+/* section-4 styles same as section-2 */
