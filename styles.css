@@ -564,6 +564,10 @@ h1 {
   text-decoration: underline;
 }
 
+.section-7 span:hover {
+  cursor: pointer;
+}
+
 .list-container {
   display: flex;
   flex-flow: row wrap;
@@ -577,6 +581,10 @@ h1 {
   flex-basis: 50%;
   list-style-type: none;
   height: 35px;
+}
+
+.list-container li:hover {
+  cursor: pointer;
 }
 
 .bottom-language {
