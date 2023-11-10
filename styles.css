@@ -536,3 +536,9 @@ h1 {
     padding-right: 100px;
   }
 }
+
+.section-7 {
+  height: 400px;
+  background-color: black;
+  color: white;
+}
