@@ -588,7 +588,7 @@ h1 {
   padding: 15px 30px;
 }
 
-@media {
+@media (min-width: 960px) {
   .section-7 {
     height: 400px;
   }
